@@ -8,6 +8,7 @@
 </head>
 
 <!-- 
+Problem Statment : add task on button click
 1. take task from input when button is clicked
     1. when button clicked
         where is button
@@ -19,6 +20,15 @@
     create an li 
     add task to it
 -->
+<!-- 
+Description: once task is created you should have the  ability to remove it 
+
+1. when task clicked
+    where is task
+    how to listen for click
+2. Remove that particular Task 
+    how to remove 
+-->
 
 <body>
 
@@ -27,7 +37,6 @@
     <button>add task
     </button>
     <ul class="list">
-
     </ul>
 
 </body>
@@ -47,7 +56,15 @@
         //   add task in listItem
         listItem.textContent = task;
         input.value = "";
+        listItem.addEventListener("click", function () {
+            // logic
+            listItem.remove();
+        })
+
+
     })
+
+
 
 </script>
 

@@ -129,3 +129,27 @@ transform: translateX(28px);
 }
 
 
+.site-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  background: lightgray;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.site-name {
+  font-size: 14px;
+}
+
+.delete-btn {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
